@@ -1,0 +1,63 @@
+page-home {
+    .bg {
+        background-image: url('../assets/team3.jpg');
+        color: white;
+    }
+
+    .login-header {
+        color: red;
+        font-size: 13px;
+    }
+
+    .orThings {
+        color: red ;
+        font-size: 15px ;
+        text-align: center;
+        
+    }
+
+    .list > .item-block:first-child {
+       border: medium none;
+   }
+
+   .list > .item-block ,item-inner {
+       border: medium none;
+   }
+
+   .item {
+       margin-bottom: 10px;
+       background: black;
+       border: medium none;
+
+
+       .text-input, {
+           color: #fff;
+       }
+
+
+       input::-moz-placeholder {
+           color: #fff !important
+       }
+
+
+       input:-moz-placeholder {
+           color: #fff !important
+       }
+
+        a::-webkit-input-placeholder {
+           color: #fff !important
+       }
+
+        a:-ms-input-placeholder {
+           color: #fff !important
+       }
+       a:-moz-placeholder {
+           color: #fff !important
+       } 
+
+    }
+    .icon {
+        padding-right: 10px;
+    }
+   
+}
